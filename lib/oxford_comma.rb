@@ -5,6 +5,7 @@ when 1
 when 2
   return array.join(" and ")
 else
+  array-1
   oxford = array.join(", ")
   return oxford
 end
