@@ -6,6 +6,7 @@ when 2
   return array.join(" and ")
 else
   lastItem = array[-1]
+  array.pop
   oxford = array.join(", ")
   return oxford + ", and " + lastItem
 end
