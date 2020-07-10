@@ -5,8 +5,8 @@ when 1
 when 2
   return array.join(" and ")
 else
-  array[-1]
+  lastItem = array[-1]
   oxford = array.join(", ")
-  return oxford + ", and " + array[-1]
+  return oxford + ", and " + lastItem
 end
 end
