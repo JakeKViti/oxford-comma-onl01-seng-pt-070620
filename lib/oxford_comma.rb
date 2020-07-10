@@ -7,6 +7,6 @@ when 2
 else
   array[-1]
   oxford = array.join(", ")
-  return oxford + ", and " array[-1]
+  return oxford + ", and " + array[-1]
 end
 end
