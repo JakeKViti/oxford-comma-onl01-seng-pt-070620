@@ -5,8 +5,8 @@ when 1
 when 2
   return array.join(" and ")
 else
-  return array[-1]
+  array[-1]
   oxford = array.join(", ")
-  return oxford
+  return oxford + ", and " array[-1]
 end
 end
